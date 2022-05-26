@@ -5,20 +5,29 @@ ChatterBot is a Python library that makes it easy to generate automated response
 Python 3.6+ required
 
 python -m venv .venv
+
 source .venv/bin/activate
 
 pip3 install nltk
+
 pip3 install tensorflow
+
 pip3 install numpy
 
 # Basic usage
 
 import nltk
+
 import warnings
  
 warnings.filterwarnings("ignore")
+
 #nltk.download() # for downloading packages
+
 import tensorflow as tf
+
 import numpy as np
+
 import random
+
 import string 
